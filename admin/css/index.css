@@ -1,0 +1,47 @@
+@import "./config.css";
+
+.main_container{
+    height: 100vh;
+}
+
+/* sidebar  */
+.main_container .sidebar{
+    height: 100%;
+    background-color: var(--bg_white1);
+}
+
+.main_container .sidebar .admin_menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container .sidebar .admin_menu a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid var(--bg_white0);
+}
+
+
+/* main content  */
+.main_container .main_content{
+    height: 100%;
+    background-color: var(--bg_white1);
+}
+
+
+/* footer  */
+.footer{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--bg_white1);
+}
+
+.footer p{
+    color: var(--bg_dark);
+}
